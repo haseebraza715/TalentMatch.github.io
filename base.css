@@ -1,0 +1,399 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#mydiv {
+  background-color: rgb(157, 211, 232);
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#mydiv h5 {
+  padding: 5px;
+}
+
+#heading {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#first p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#mydiv span {
+  padding: 10px;
+  border: 20px solid white;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  border: solid black;
+  border-radius: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.container img {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  object-fit: cover;
+  width: 350px;
+  height: 230px;
+  margin-right: 15px;
+}
+
+.container p {
+  margin: 0;
+  padding-bottom: 70px;
+  padding-top: 10px;
+}
+
+.container button {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 150px;
+}
+
+header {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  padding-left: 7%;
+  padding-right: 7%;
+  background-image: url("media/K2IM.jpg");
+  background-repeat: no-repeat;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 14vh;
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+.logo {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 25px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.bar {
+  display: none;
+  cursor: pointer;
+}
+.bar div {
+  width: 20px;
+  height: 1px;
+  background-color: #ffffff;
+  margin: 6px;
+  transition: all 0.4s ease;
+}
+
+.container1 {
+  position: relative;
+  text-align: center;
+}
+
+.container1 img {
+  object-fit: cover;
+  width: 1500px;
+  height: 500px;
+  margin-right: 15px;
+}
+
+.centered {
+  position: absolute;
+  background-color: skyblue;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered h1 {
+  color: wheat;
+
+  text-align: center;
+  font-weight: 800px;
+}
+
+.button {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 300px;
+  height: 40px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-items {
+  display: flex;
+  align-items: center;
+}
+
+.list-items ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.list-items li {
+  margin: 0 10px;
+}
+
+.list-items a {
+  text-decoration: none;
+}
+
+.list-items img {
+  width: 50%;
+  height: 60px;
+  border-radius: 20%;
+}
+
+/*.list-items img:hover {
+  background-color: white;
+}*/
+
+.end {
+  display: flex;
+  align-items: center;
+}
+
+.contact-button,
+.email-button {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copyright {
+  font-size: 12px;
+}
+
+/*this is for the portfolio */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.site-title {
+  text-align: center;
+  color: #fff;
+}
+
+.main-container {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: D#333;
+  color: white;
+  margin-bottom: 100px;
+  padding: 200px 0;
+  overflow: hidden;
+}
+
+.video-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+.web {
+  padding-top: -100px;
+}
+
+.project-section {
+  padding-top: -300px;
+  grid-template-columns: 65% 35%;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: 200px;
+  padding-left: 15%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  padding-right: 1%;
+  box-shadow: #000000;
+  align-content: center;
+}
+
+/*conatact us css*/
+
+textarea {
+  width: 65%;
+  height: 25%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: 0;
+  padding: 1%;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+  background-color: #cfcbcb;
+}
+.form {
+  width: 100%;
+  margin: 0px auto 0px auto;
+}
+
+.form h2 {
+  text-align: center;
+  padding: 2%;
+  font-family: sans-serif;
+}
+.form p {
+  text-align: left;
+  padding-bottom: 5px;
+}
+.register {
+  background-color: rgba(129, 226, 233, 0.1);
+  width: 100%;
+  font-size: 18px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  padding-left: 5%;
+}
+.name {
+  width: 65%;
+  height: 10%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: 0;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.button-container {
+  margin-left: 2%;
+  margin-right: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: rgb(69, 204, 228);
+}
+/*css for softwere developers*/
+.skill-section {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+.profile-photo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  text-align: left;
+  padding-left: 160px;
+}
+
+.skills-table {
+  border: 1px solid #ccc;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skills-table th {
+  background-color: #eee;
+  padding: 10px 15px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.skills-table td {
+  padding: 10px 15px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
